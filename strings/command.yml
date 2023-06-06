@@ -1,0 +1,100 @@
+# Commands in Every Language
+
+# Bot Commands
+PING_COMMAND : ["mping"]
+START_COMMAND : ["start"]
+HELP_COMMAND : ["mhelp"]
+SETTINGS_COMMAND : ["msettings", "msetting"]
+RELOAD_COMMAND : ["mreload"]
+GSTATS_COMMAND : ["gstats"]
+STATS_COMMAND : ["system"]
+LANGUAGE_COMMAND : ["mlang"]
+
+# Play Commands
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["playmode"]
+CHANNELPLAY_COMMAND : ["channelplay"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+
+#Playlists Command
+PLAYLIST_COMMAND : ["playlist"]
+DELETEPLAYLIST_COMMAND : ["delplaylist"]
+
+
+# Tools
+QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
+SONG_COMMAND : ["song", "video"]
+
+# Admin Commands
+AUTH_COMMAND : ["auth"]
+UNAUTH_COMMAND : ["unauth"]
+AUTHUSERS_COMMAND : ["authusers"]
+PAUSE_COMMAND : ["pause", "cpause"]
+RESUME_COMMAND : ["resume", "cresume"]
+MUTE_COMMAND : ["musicmute", "cmute"]
+UNMUTE_COMMAND : ["musicunmute", "cunmute"]
+STOP_COMMAND : ["stop", "e", "end", "cstop", "cend"]
+SKIP_COMMAND : ["sk", "skip", "cskip", "csk"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
+LOOP_COMMAND : ["loop", "cloop"]
+SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
+RESTART_COMMAND : ["restart"]
+
+# Sudo Users Commaands
+
+# Sudo Command
+ADDSUDO_COMMAND : ["sudo"]
+DELSUDO_COMMAND : ["delsudo"]
+SUDOUSERS_COMMAND : ["msudolist"]
+
+#Broadcast 
+BROADCAST_COMMAND : ["broadcast"]
+
+#Blacklist chat
+BLACKLISTCHAT_COMMAND : ["blacklistchat"]
+WHITELISTCHAT_COMMAND : ["whitelistchat"]
+BLACKLISTEDCHAT_COMMAND : ["blacklist"]
+
+# Video Calls Command
+VIDEOLIMIT_COMMAND : ["set_video_limit"]
+VIDEOMODE_COMMAND : ["videomode"]
+
+#Mantenance
+MAINTENANCE_COMMAND : ["maintenance"]
+LOGGER_COMMAND : ["log"]
+
+#Heroku
+GETLOG_COMMAND : ["get_log"]
+GETVAR_COMMAND : ["get_var"]
+DELVAR_COMMAND : ["del_var"]
+SETVAR_COMMAND : ["set_var"]
+USAGE_COMMAND : ["usage"]
+VARS_COMMAND : ["vars"]
+
+
+#Basic Bot Commands
+UPDATE_COMMAND : ["update"]
+REBOOT_COMMAND : ["mreboot"]
+AUTOEND_COMMAND : ["autoend"]
+
+#Private Bot Mode
+AUTHORIZE_COMMAND : ["authorize"]
+UNAUTHORIZE_COMMAND : ["unauthorize"]
+AUTHORIZED_COMMAND : ["authorized"]
+
+#Block Users Command
+BLOCK_COMMAND : ["musicblock"]
+UNBLOCK_COMMAND : ["musicunblock"]
+BLOCKED_COMMAND : ["mblocklist"]
+
+#sPEEDTEST
+SPEEDTEST_COMMAND : ["speed"]
+
+#Voice chat commands
+ACTIVEVC_COMMAND : ["vc"]
+ACTIVEVIDEO_COMMAND : ["vd"]
+
+#Gban Commands
+GBAN_COMMAND : ["mgban"]
+UNGBAN_COMMAND : ["mungban"]
+GBANNED_COMMAND : ["mgbanlist"]
